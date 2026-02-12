@@ -1,5 +1,6 @@
 /* Content styles — applied to LinkedIn pages */
 
-[aria-label="Main Feed"] {
+/* Hide feed by default (enabled state). JS adds the attribute to reveal it when disabled. */
+html:not([data-linkedin-fix-disabled]) [aria-label="Main Feed"] {
   display: none !important;
 }
