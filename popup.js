@@ -15,6 +15,6 @@ toggle.addEventListener("click", () => {
 });
 
 function updateUI(enabled) {
-  status.textContent = enabled ? "Extension is active." : "Extension is disabled.";
+  status.textContent = enabled ? "Extension is active. Nobody else has an internship either, I promise." : "Extension is disabled. Use at your own risk.";
   toggle.textContent = enabled ? "Disable" : "Enable";
 }
